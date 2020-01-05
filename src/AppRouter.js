@@ -30,6 +30,8 @@ import About from './containers/about';
 
 import Login from './containers/login';
 import ForgetPassword from './containers/forget-password';
+import ChangePassword from './containers/change-password';
+
 
 class AppRouter extends Component {
     render() {
@@ -37,9 +39,10 @@ class AppRouter extends Component {
             <Router>
                 <RouteContainer>
                     <Switch>
-                        <Route exact path='/' component={Home} />
-                        <Route exact path='/login' component={Login} />
+                        <Route exact path='/home' component={Home} />
+                        <Route exact path='/' component={Login} />
                         <Route exact path='/forget-password' component={ForgetPassword} />
+                        <Route exact path='/change-password' component={ChangePassword} />
                         <Route exact path='/teams' component={Team} />
                         <Route exact path='/add-member' component={AddTeam} />
                         <Route exact path='/edit-member' component={EditTeam} />

@@ -22,7 +22,7 @@ export default class Home extends Component {
                                             <input type="password" id="inputPassword" class="form-control" placeholder="Password" required />
                                         </div>
 
-                                        <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign in</button>
+                                        <button class="btn btn-lg btn-primary btn-block text-uppercase" onClick={()=>{ this.props.history.push('/home')}} type="submit">Sign in</button>
                                     </form>
                                     <br/>
                                     <div className="text-center">
