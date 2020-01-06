@@ -5,19 +5,19 @@ export default function () {
     return (
         <div className="sidebar" data-color="white" data-active-color="danger">
             <div className="logo">
-                <Link to="/" className="simple-text logo-mini">
+                <Link to="/home" className="simple-text logo-mini">
                     <div className="logo-image-small">
                         <img src="../assets/img/logo-small.png" />
                     </div>
                 </Link>
-                <Link to="/" className="simple-text logo-normal">
+                <Link to="/home" className="simple-text logo-normal">
                     Admin
                 </Link>
             </div>
             <div className="sidebar-wrapper">
                 <ul className="nav">
                     <li className="active ">
-                        <Link to="/">
+                        <Link to="/home">
                             <i className="nc-icon nc-settings-gear-65"></i>
                             <p>Dashboard</p>
                         </Link>
@@ -56,12 +56,6 @@ export default function () {
                         <Link to="/faq">
                             <i className="nc-icon nc-settings-gear-65"></i>
                             <p>FAQ Management</p>
-                        </Link>
-                    </li>
-                    <li className="active-pro">
-                        <Link to="/login">
-                            <i className="nc-icon nc-settings-gear-65"></i>
-                            <p>Logout</p>
                         </Link>
                     </li>
                 </ul>

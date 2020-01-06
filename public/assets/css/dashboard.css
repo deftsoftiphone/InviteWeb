@@ -6494,7 +6494,7 @@ License - nucleoapp.com/license/
 
 .form-label-group>input,
 .form-label-group>label {
-  padding: var(--input-padding-y) var(--input-padding-x);
+  padding: 3px 10px;
 }
 
 .form-label-group>label {

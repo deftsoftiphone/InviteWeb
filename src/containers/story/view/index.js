@@ -10,12 +10,12 @@ export default class Home extends Component {
                 <div className="wrapper ">
                     <Sidebar />
                     <div className="main-panel">
-                        <Header title="storys" />
+                        <Header title="stories" />
                         <div className="content">
                             <nav aria-label="breadcrumb">
                                 <ol className="breadcrumb">
-                                    <li className="breadcrumb-item"><Link to="/">Dashboard</Link></li>
-                                    <li className="breadcrumb-item"><Link to="/storys">stories</Link></li>
+                                    <li className="breadcrumb-item"><Link to="/home">Dashboard</Link></li>
+                                    <li className="breadcrumb-item"><Link to="/stories">stories</Link></li>
                                     <li className="breadcrumb-item active" aria-current="page">view</li>
                                 </ol>
                             </nav>
