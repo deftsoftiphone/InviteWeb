@@ -50,28 +50,28 @@ export default class Home extends Component {
                                                         <label>Videos </label>
                                                         <input type="file" className="btn btn-primary" />
                                                         <div className="story-video">
-                                                            <video>
+                                                            <video controls>
                                                                 <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4" />
                                                             </video>
                                                         </div>
                                                         <div className="story-video">
-                                                            <video>
+                                                            <video controls>
                                                                 <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4" />
                                                             </video>
                                                         </div>
                                                         <div className="story-video">
-                                                            <video>
+                                                            <video controls>
                                                                 <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4" />
                                                             </video>
                                                         </div>
                                                         <div className="story-video">
-                                                            <video>
+                                                            <video controls>
                                                                 <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4" />
                                                             </video>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div className="col-md-12 px-1">
+                                                <div className="col-md-6 px-1">
                                                     <div className="form-group">
                                                         <label>Story text</label>
                                                         <textarea className="form-control" placeholder="Story text" ></textarea>

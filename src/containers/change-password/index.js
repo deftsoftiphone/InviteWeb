@@ -19,26 +19,27 @@ export default class Home extends Component {
                                 </ol>
                             </nav>
                             <div className="row">
+                                <div className="col-md-2"></div>
                                 <div className="col-md-8">
                                     <div className="card card-user">
                                         <div className="card-header">
-                                            <h5 className="card-title">Change Password Form</h5>
+                                            <h5 className="card-title">Change Password</h5>
                                         </div>
                                         <div className="card-body">
                                             <form method="post" encType="multipart/form-data">
                                                 <div className="col-md-12 px-1">
                                                     <div className="form-group">
-                                                        <input tyep="text" className="form-control" placeholder="Old Password" />
+                                                        <input tyep="password" className="form-control" placeholder="Old Password" />
                                                     </div>
                                                     <div className="form-group">
-                                                        <input tyep="text" className="form-control" placeholder="New Password" />
+                                                        <input tyep="password" className="form-control" placeholder="New Password" />
                                                     </div>
                                                     <div className="form-group">
-                                                        <input tyep="text" className="form-control" placeholder="Confirmm New Password" />
+                                                        <input tyep="password" className="form-control" placeholder="Confirm New Password" />
                                                     </div>
                                                 </div>
                                                 <div class="update ml-auto mr-auto">
-                                                    <button type="submit" class="btn btn-primary btn-round">Change</button>
+                                                    <button type="submit" class="btn btn-primary btn-round">Update</button>
                                                 </div>
                                             </form>
                                         </div>

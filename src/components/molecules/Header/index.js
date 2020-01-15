@@ -27,7 +27,7 @@ export default function (props) {
                             <a className="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i className="nc-icon nc-settings-gear-65"></i>
                                 <p>
-                                    <span className="d-lg-none d-md-block">Settings</span>
+                                    <span className="navbar-header-link"> Settings </span>
                                 </p>
                             </a>
                             <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">

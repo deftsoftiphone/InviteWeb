@@ -10,7 +10,7 @@ export default class Home extends Component {
                 <div className="wrapper ">
                     <Sidebar />
                     <div className="main-panel">
-                        <Header title="stories" />
+                        <Header title="Stories" />
                         <div className="content">
                             <nav aria-label="breadcrumb">
                                 <ol className="breadcrumb">
@@ -23,7 +23,7 @@ export default class Home extends Component {
                                 <div className="col-md-12">
                                     <div className="card card-user">
                                         <div className="card-header">
-                                            <h5 className="card-title">edit Story</h5>
+                                            <h5 className="card-title">Edit Story</h5>
                                         </div>
                                         <div className="card-body">
                                             <form method="post" encType="multipart/form-data">
@@ -50,28 +50,28 @@ export default class Home extends Component {
                                                         <label>Videos </label>
                                                         <input type="file" className="btn btn-primary" />
                                                         <div className="story-video">
-                                                            <video>
+                                                            <video controls>
                                                                 <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4" />
                                                             </video>
                                                         </div>
                                                         <div className="story-video">
-                                                            <video>
+                                                            <video controls>
                                                                 <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4" />
                                                             </video>
                                                         </div>
                                                         <div className="story-video">
-                                                            <video>
+                                                            <video controls>
                                                                 <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4" />
                                                             </video>
                                                         </div>
                                                         <div className="story-video">
-                                                            <video>
+                                                            <video controls>
                                                                 <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4" />
                                                             </video>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div className="col-md-12 px-1">
+                                                <div className="col-md-8 px-1">
                                                     <div className="form-group">
                                                         <label>Story text</label>
                                                         <textarea className="form-control" placeholder="Story text" ></textarea>

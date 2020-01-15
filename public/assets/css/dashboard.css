@@ -1936,7 +1936,8 @@ fieldset[disabled] .btn-link.active {
 
 .form-group .form-control,
 .input-group .form-control {
-  padding: 10px 10px 10px 10px;
+  padding: 5px 10px;
+  line-height: 20px;
 }
 
 .form-group .form-control+.input-group-prepend .input-group-text,
@@ -2217,7 +2218,8 @@ fieldset[disabled] .form-control {
 
 textarea.form-control {
   max-width: 100%;
-  max-height: 80px;
+  min-height: 100px;
+  line-height: 20px;
   padding: 10px 10px 0 0;
   resize: none;
   border: none;
@@ -2397,6 +2399,7 @@ p.description {
 
 .category,
 .card-category {
+  text-decoration: none;
   text-transform: capitalize;
   font-weight: 400;
   color: #9A9A9A;
@@ -2894,10 +2897,11 @@ a[data-toggle="collapse"][aria-expanded="true"] .caret,
 
 .navbar p {
   display: inline-block;
-  margin: 0;
+  margin: 3px 5px;
   line-height: 1.8em;
   font-size: 1em;
   font-weight: 400;
+
 }
 
 .navbar.navbar-absolute {
@@ -4568,7 +4572,7 @@ License - nucleoapp.com/license/
 }
 
 .table-responsive {
-  overflow: scroll;
+  overflow: auto;
   padding-bottom: 10px;
 }
 
@@ -6444,8 +6448,10 @@ License - nucleoapp.com/license/
   margin-left: 0px;
 }
 
-.story-video video {
+
+.story-image img, .story-video video {
   max-width: 100%;
+  border-radius: 6px;
 }
 
 
@@ -6564,4 +6570,25 @@ License - nucleoapp.com/license/
   .form-label-group input:-ms-input-placeholder {
     color: #777;
   }
+}
+
+.about-us-area {
+  min-height: 500px;
+}
+
+.no-left-margin {
+  margin-left: 0 ;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #000;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #000;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #000;
 }

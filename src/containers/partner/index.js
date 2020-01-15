@@ -46,7 +46,7 @@ export default class Home extends Component {
                                                             <th>Sr No</th>
                                                             <th>Partner Name</th>
                                                             <th>Partner Image</th>
-                                                            <th className="text-right">Actions</th>
+                                                            <th className="text-right">Action</th>
                                                         </tr>
                                                     </thead>
                                                     <tbody>

@@ -40,12 +40,6 @@ export default class Home extends Component {
                                                             <input type="text" className="form-control" placeholder="Partner Name" />
                                                         </div>
                                                     </div>
-                                                    <div className="col-md-12 px-1">
-                                                        <div className="form-group">
-                                                            <label>Partner Bio</label>
-                                                            <textarea className="form-control" placeholder="Partner Bio" ></textarea>
-                                                        </div>
-                                                    </div>
                                                     <div class="update ml-auto mr-auto">
                                                         <button type="submit" class="btn btn-primary btn-round">ADD</button>
                                                     </div>

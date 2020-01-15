@@ -10,7 +10,7 @@ export default class Home extends Component {
                         <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
                             <div class="card card-signin my-5">
                                 <div class="card-body">
-                                    <h5 class="card-title text-center">Sign In</h5>
+                                    <h5 class="card-title text-center">Admin Login</h5>
                                     <form class="form-signin">
                                         <div class="form-label-group">
                                             <label for="inputEmail">Email address</label>
@@ -22,11 +22,11 @@ export default class Home extends Component {
                                             <input type="password" id="inputPassword" class="form-control" placeholder="Password" required />
                                         </div>
 
-                                        <button class="btn btn-lg btn-primary btn-block text-uppercase" onClick={()=>{ this.props.history.push('/home')}} type="submit">Sign in</button>
+                                        <button class="btn btn-lg btn-primary btn-block text-uppercase" onClick={()=>{ this.props.history.push('/home')}} type="submit">Login</button>
                                     </form>
                                     <br/>
                                     <div className="text-center">
-                                        <Link  to="forget-password">Forgot Password ??</Link>
+                                        <Link  to="forget-password">Forgot Password ?</Link>
                                     </div>
                                 </div>
                             </div>

@@ -35,7 +35,7 @@ export default class Home extends Component {
                                                 </form>
                                             </div>
                                             <div className="searchWrapper">
-                                                <Link to="/add-member" className="btn btn-primary">Add Team</Link>
+                                                <Link to="/add-member" className="btn btn-primary">Add Member</Link>
                                             </div>
                                         </div>
                                         <div className="card-body">
@@ -46,7 +46,7 @@ export default class Home extends Component {
                                                             <th>Sr No</th>
                                                             <th>Member Name</th>
                                                             <th>Member Image</th>
-                                                            <th className="text-right">Actions</th>
+                                                            <th className="text-right">Action</th>
                                                         </tr>
                                                     </thead>
                                                     <tbody>

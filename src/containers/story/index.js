@@ -45,7 +45,7 @@ export default class Home extends Component {
                                                         <tr>
                                                             <th>Sr No</th>
                                                             <th>Story text</th>
-                                                            <th className="text-right">Actions</th>
+                                                            <th className="text-right">Action</th>
                                                         </tr>
                                                     </thead>
                                                     <tbody>

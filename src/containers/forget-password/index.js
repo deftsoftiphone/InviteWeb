@@ -10,7 +10,11 @@ export default class Home extends Component {
                         <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
                             <div class="card card-signin my-5">
                                 <div class="card-body">
-                                    <h5 class="card-title text-center">Recover Password</h5>
+                                <div className="">
+                                        <Link  to="/login"><i className="fa fa-arrow-left"></i> Back</Link>
+                                    </div>
+                                    <br/>
+                                      <h5 class="card-title text-center">Recover Password</h5>
                                     <form class="form-signin">
                                         <div class="form-label-group">
                                             <label for="inputEmail">Email address</label>
@@ -20,10 +24,6 @@ export default class Home extends Component {
                                         <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Recover</button>
                                     </form>
                                     <br/>
-                                    <div className="text-center">
-                                        <Link  to="/login">Sign In ??</Link>
-                                    </div>
-
                                 </div>
                             </div>
                         </div>
